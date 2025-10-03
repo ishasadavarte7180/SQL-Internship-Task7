@@ -37,8 +37,6 @@ CREATE TABLE Orders (
 );
 ```
 
-📸 Screenshot: ![Schema](screenshots/schema.png)
-
 ---
 
 ## 🗄 Step 2: Insert Data  
@@ -72,7 +70,7 @@ JOIN Orders o ON c.CustomerID = o.CustomerID;
 ```sql
 SELECT * FROM CustomerOrders;
 ```
-📸 Screenshot: ![CustomerOrders Output](screenshots/customer_orders_view.png)
+📸 Screenshot: ![CustomerOrders Output](Screenshots/Query_1.PNG)
 
 ---
 
@@ -87,7 +85,7 @@ WHERE City = 'Pune';
 ```sql
 SELECT * FROM Pune_Customers;
 ```
-📸 Screenshot: ![Pune_Customers Output](screenshots/pune_customers_view.png)
+📸 Screenshot: ![Pune_Customers Output](Screenshots/Query_2.PNG)
 
 ---
 
@@ -104,7 +102,7 @@ GROUP BY c.Name;
 ```sql
 SELECT * FROM TotalSpent;
 ```
-📸 Screenshot: ![TotalSpent Output](screenshots/total_spent_view.png)
+📸 Screenshot: ![TotalSpent Output](Screenshots/Query_3.PNG)
 
 ---
 
@@ -115,7 +113,7 @@ UPDATE Pune_Customers
 SET Email = 'new_email@gmail.com'
 WHERE Name = 'Isha Sadavarte';
 ```
-📸 Screenshot: ![Update View](screenshots/update_view.png)
+📸 Screenshot: ![Update View](Screenshots/Query_4.PNG)
 
 ---
 
@@ -125,7 +123,7 @@ WHERE Name = 'Isha Sadavarte';
 DROP VIEW IF EXISTS TotalSpent;
 ```
 
----
+
 
 
 ---
