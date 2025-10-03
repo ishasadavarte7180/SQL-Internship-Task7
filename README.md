@@ -70,7 +70,7 @@ JOIN Orders o ON c.CustomerID = o.CustomerID;
 ```sql
 SELECT * FROM CustomerOrders;
 ```
-CustomerOrders Output: [CustomerOrders Output](./Screenshots/Query_1.PNG)
+📸 Screenshot: [CustomerOrders Output](./Screenshots/Query_1.PNG)
 
 ---
 
