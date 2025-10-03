@@ -70,7 +70,7 @@ JOIN Orders o ON c.CustomerID = o.CustomerID;
 ```sql
 SELECT * FROM CustomerOrders;
 ```
-📸 Screenshot: ![CustomerOrders Output](Screenshots/Query_1.PNG)
+📸 Screenshot: ![CustomerOrders Output](./Screenshots/Query_1.PNG)
 
 ---
 
@@ -85,7 +85,7 @@ WHERE City = 'Pune';
 ```sql
 SELECT * FROM Pune_Customers;
 ```
-📸 Screenshot: ![Pune_Customers Output](Screenshots/Query_2.PNG)
+📸 Screenshot: ![Pune_Customers Output](./Screenshots/Query_2.PNG)
 
 ---
 
@@ -102,7 +102,7 @@ GROUP BY c.Name;
 ```sql
 SELECT * FROM TotalSpent;
 ```
-📸 Screenshot: ![TotalSpent Output](Screenshots/Query_3.PNG)
+📸 Screenshot: ![TotalSpent Output](./Screenshots/Query_3.PNG)
 
 ---
 
@@ -113,7 +113,7 @@ UPDATE Pune_Customers
 SET Email = 'new_email@gmail.com'
 WHERE Name = 'Isha Sadavarte';
 ```
-📸 Screenshot: ![Update View](Screenshots/Query_4.PNG)
+📸 Screenshot: ![Update View](./Screenshots/Query_4.PNG)
 
 ---
 
